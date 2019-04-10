@@ -8,4 +8,4 @@ This getting started page will help you with setting up the cellular shield, ras
 
 ## Setting up the hardware
 
-![alt_text](images/cellular_shield_front.jpg)
+![Front view of cellular shield](images/cellular_shield_front.jpg)
