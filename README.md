@@ -8,3 +8,5 @@ This getting started page will help you with setting up the cellular shield, ras
 
 ## Setting up the hardware
 
+
+![alt text](images/IMG_6498.jpg)
