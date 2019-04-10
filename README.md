@@ -6,7 +6,7 @@ This getting started page will help accelerator program participants with settin
 
 # Let's get started
 
-Participants will receive the following hardware:
+Participants will receive the following hardware when they join the program:
 
 1. TELUS Cat-M1 cellular shield
 2. Raspberry Pi and accessories
@@ -17,7 +17,7 @@ Participants will receive the following hardware:
 
 ## Setting up the hardware
 
-1. Connect the LTE Cat-M1 antenna and insert removable eSIM to cellular shield as shown below indicated by red box.
+1. Connect the LTE Cat-M1 antenna and insert removable eSIM to cellular shield as shown below indicated by red boxes.
 
       ![Front view of cellular shield](images/insert_esim_and_connect_antenna.jpg)
 
