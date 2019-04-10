@@ -12,13 +12,13 @@ Participants will receive the following hardware:
 2. Raspberry Pi and accessories
 3. TELUS Removable eSIM
 
-![Front view of cellular shield](images/cellular_shield_front.jpg)
+      ![Front view of cellular shield](images/cellular_shield_front.jpg)
 
-![Front view of cellular shield](images/rasp_pi.jpg)
+      ![Front view of cellular shield](images/rasp_pi.jpg)
 
 ## Setting up the hardware
 
 1. Connect the antenna and insert removable eSIM to cellular shield as shown in the image indicated by red box.
 
-![Front view of cellular shield](images/insert_esim_and_connect_antenna.jpg)
+      ![Front view of cellular shield](images/insert_esim_and_connect_antenna.jpg)
 
