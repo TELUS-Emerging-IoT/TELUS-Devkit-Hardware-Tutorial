@@ -93,3 +93,6 @@ https://sixfab.com/qmi-interface-with-3g-4g-lte-base-shield-v2/
 After installation, the command to connect is: `sudo ./quectel-CM -s pp.telus.com`, below is the output of the command. Notice at the bottom there is a **Too few arguments** messages. I am not sure what is causing this error (have to check with Sixfab) but regardless the modem is connected.
 
 ![alt text](images/qmi_connect.png)
+
+### Hope this helps!
+
