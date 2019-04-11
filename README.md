@@ -14,8 +14,8 @@ Participants will receive the following hardware when they join the accelerator 
 2. Raspberry Pi and accessories
 3. TELUS Removable eSIM
 
-![alt text](images/rasp_pi.jpg)
 ![alt text](images/cellular_shield_front.jpg)
+![alt text](images/rasp_pi.jpg)
 
 ## Setting up the Hardware
 
@@ -119,3 +119,4 @@ Sixfab cellular sheild can be found here: https://sixfab.com/product/raspberry-p
 
 You can download the schematic of Raspberry Pi Cellular IoT Application Shield from here: https://github.com/sixfab/Sixfab_RPi_CellularIoT_Library/tree/master/documents
 
+### Hope this helps.
