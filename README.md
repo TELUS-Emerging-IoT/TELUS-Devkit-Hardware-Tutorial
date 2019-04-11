@@ -35,7 +35,7 @@ Participants will receive the following hardware when they join the accelerator 
 
 4. Connect the micro USB cable as power source (included in the package) and ethernet cable for internet connection, optionally, you can also use Wifi for internet connection.
 
-   `This tutorial assumes that Raspian OS has been installed and configured, if not, the participant shall install and configure Raspian OS before continuing to the next steps.`
+   `This tutorial assumes that Raspian OS has been installed and configured ahead of time, if not, the participant shall install and configure Raspian OS before continuing to the next steps.`
    
 5. Power on Raspberry Pi. 
       
@@ -84,4 +84,4 @@ PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shi
 
       ![alt text](images/sudo_pon_success.png)
       
-      
+### Connect using QMI, alternative to PPP dialer
