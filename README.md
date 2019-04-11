@@ -97,7 +97,7 @@ After installation, the command to connect is: `sudo ./quectel-CM -s pp.telus.co
 
 ## Hardware Information
 
-Sixfab cellular sheild information can be found here: https://sixfab.com/product/raspberry-pi-cellular-iot-application-hat/
+Sixfab cellular shield information can be found here: https://sixfab.com/product/raspberry-pi-cellular-iot-application-hat/
 
 **Layout**
 
