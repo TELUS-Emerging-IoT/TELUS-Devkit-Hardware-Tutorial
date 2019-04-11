@@ -2,6 +2,8 @@
 
 The Secure IoT Accelerator program is intended to enable Canadian Internet of Things (IoT) ventures by providing them with global market reach capability with a Secure by Design technology.
 
+For more information about the accelerator program, visit: https://www.l-spark.com/press-release/l-spark-telus-blackberry-and-solace-launch-accelerator-for-emerging-canadian-iot-ventures/
+
 This getting started tutorial will help accelerator program participants with setting up the cellular shield, raspberry pi and installing applications required to validate devkit functions and features.
 
 # Let's get started
@@ -9,10 +11,10 @@ This getting started tutorial will help accelerator program participants with se
 Participants will receive the following hardware when they join the accelerator program:
 
 1. TELUS Cat-M1 cellular shield
-    ![alt text](images/cellular_shield_front.jpg)
+   ![alt text](images/cellular_shield_front.jpg)
       
 2. Raspberry Pi and accessories
-    ![alt text](images/rasp_pi.jpg)
+   ![alt text](images/rasp_pi.jpg)
 
 3. TELUS Removable eSIM
 
