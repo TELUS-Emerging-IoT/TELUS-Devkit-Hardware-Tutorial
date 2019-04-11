@@ -16,7 +16,7 @@ Participants will receive the following hardware when they join the accelerator 
 
 3. TELUS Removable eSIM
 
-## Setting up the hardware
+## Setting up the Hardware
 
 1. Connect the LTE Cat-M1 antenna and insert removable eSIM to cellular shield as shown below indicated by red boxes. 
 
@@ -33,7 +33,7 @@ Participants will receive the following hardware when they join the accelerator 
       ![alt text](images/usb_cable_connected_2.jpg)
       ![alt text](images/usb_cable_connected_1.jpg)      
 
-4. Connect the micro USB cable as poer source (included in the package) and ethernet cable as internet connection. optionally, you can also use Wifi to connect to internet.
+4. Connect the micro USB cable as power source (included in the package) and ethernet cable for internet connection, optionally, you can also use Wifi for internet connection.
 
    `This tutorial assumes that Raspian OS has been installed and configured, if not, the participant shall install and configure Raspian OS before continuing to the next steps.`
    
@@ -52,3 +52,36 @@ Participants will receive the following hardware when they join the accelerator 
    You will also notice that `/dev/ttyS0` (serial) is available. If you don't see `/dev/ttyS0` when you `ls -l /dev/tty*` then you need to enable Serial via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
 
 8. Alternatively, you can also onnect (login) to Raspberry Pi using SSH via Terminal (mac), Tera Term or Putty (windows). If SSH is not available, you can enable SSH via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
+
+## Connecting the Modem
+
+Since we are using Sixfab cellular shield, we are going to head to [Sixfab Tutorial](https://sixfab.com/tutorials/) page and follow the instruction on how to install [PPP dialer](https://sixfab.com/ppp-installer-for-sixfab-shield/) with some modifications and configurations specific to TELUS Cat-M1 network.
+
+PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shield/
+
+1. In Step 3, select **Cellular IoT Shield**
+
+      ![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/09/installsh01.png)
+
+2. Set APN to **pp.telus.com**
+
+3. Device communication port can be **ttyS0** or **ttyUSB3**
+
+      ![alt_text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/09/installsh04.png)
+      
+4. Edit **/etc/chatscripts/chat-connect**
+
+      Command: `sudo nano /etc/chatscripts/chat-connect`
+      
+      Replace the content of **/etc/chatscripts/chat-connect** with this:
+      ![alt text](images/chat_connect.png)
+
+5. If you want change the port (**ttyS0** or **ttyUSB3**) that PPP dialer use, you can edit **/etc/ppp/peers/provider**
+
+      ![alt text](images/peers_providers.png)
+
+6. To connect, the command to use is `sudo pon` and you will see similar to below once modem successfully connected to TELUS Cat-M1 network.
+
+      ![alt text](images/sudo_pon_success.png)
+      
+      
