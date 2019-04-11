@@ -33,9 +33,9 @@ Participants will receive the following hardware when they join the accelerator 
       ![alt text](images/usb_cable_connected_2.jpg)
       ![alt text](images/usb_cable_connected_1.jpg)      
 
-4. Connect the micro USB cable included in the package and ethernet cable.
+4. Connect the micro USB cable as poer source (included in the package) and ethernet cable as internet connection. optionally, you can also use Wifi to connect to internet.
 
-   `This tutorial assumes that Raspian OS has been installed and configured, if not, the participant shall install and configure Raspian before continuing to the next steps.`
+   `This tutorial assumes that Raspian OS has been installed and configured, if not, the participant shall install and configure Raspian OS before continuing to the next steps.`
    
 5. Power on Raspberry Pi. 
       
