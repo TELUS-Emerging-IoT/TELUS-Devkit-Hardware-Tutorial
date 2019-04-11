@@ -9,10 +9,10 @@ This getting started tutorial will help accelerator program participants with se
 Participants will receive the following hardware when they join the accelerator program:
 
 1. TELUS Cat-M1 cellular shield
-      ![Front view of cellular shield](images/cellular_shield_front.jpg)
+      ![alt text](images/cellular_shield_front.jpg)
       
 2. Raspberry Pi and accessories
-      ![Front view of cellular shield](images/rasp_pi.jpg)
+      ![alt text](images/rasp_pi.jpg)
 
 3. TELUS Removable eSIM
 
@@ -20,18 +20,18 @@ Participants will receive the following hardware when they join the accelerator 
 
 1. Connect the LTE Cat-M1 antenna and insert removable eSIM to cellular shield as shown below indicated by red boxes. 
 
-Additionally, you can also connect GPS antenna if you intended to develop application that would use GPS location.
+      Additionally, you can also connect GPS antenna if you intended to develop application that would use GPS location.
 
-      ![Front view of cellular shield](images/insert_esim_and_connect_antenna.jpg)
+      ![alt text](images/insert_esim_and_connect_antenna.jpg)
 
 2. Connect the cellular shield and raspberry pi.
 
-      ![Front view of cellular shield](images/shield_and_pi_stacked_1.jpg)
+      ![alt text](images/shield_and_pi_stacked_1.jpg)
 
 3. Connect the USB cable as shown below.
 
-      ![Front view of cellular shield](images/usb_cable_connected_2.jpg)
-      ![Front view of cellular shield](images/usb_cable_connected_1.jpg)      
+      ![alt text](images/usb_cable_connected_2.jpg)
+      ![alt text](images/usb_cable_connected_1.jpg)      
 
 4. Connect the micro USB cable included in the package and ethernet cable.
 
@@ -41,13 +41,13 @@ Additionally, you can also connect GPS antenna if you intended to develop applic
       
 6. Press **Power button** on the cellular shield shown below in red circle to enable cellular connection and mount USB ports in Raspberry Pi.
 
-   ![Front view of cellular shield](images/press_power_on_button.jpg) 
+   ![alt text](images/press_power_on_button.jpg) 
    
 7. If you are on Raspian OS desktop, open Terminal to verify USB ports are mounted.
 
    Command to verify USB ports are mounted: `ls -l /dev/tty*`
    
-   ![Front view of cellular shield](images/shield_on_and_usb_ports_mounted.png) 
+   ![alt text](images/shield_on_and_usb_ports_mounted.png) 
    
    You will also notice that `/dev/ttyS0` (serial) is available. If you don't see `/dev/ttyS0` when you `ls -l /dev/tty*` then you need to enable Serial via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
 
