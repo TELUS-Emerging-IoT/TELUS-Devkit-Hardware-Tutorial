@@ -11,10 +11,10 @@ This getting started tutorial will help accelerator program participants with se
 Participants will receive the following hardware when they join the accelerator program:
 
 1. TELUS Cat-M1 cellular shield
-   ![alt text](images/cellular_shield_front.jpg)
+![alt text](images/cellular_shield_front.jpg)
       
 2. Raspberry Pi and accessories
-   ![alt text](images/rasp_pi.jpg)
+![alt text](images/rasp_pi.jpg)
 
 3. TELUS Removable eSIM
 
