@@ -9,10 +9,10 @@ This getting started tutorial will help accelerator program participants with se
 Participants will receive the following hardware when they join the accelerator program:
 
 1. TELUS Cat-M1 cellular shield
-     ![alt text](images/cellular_shield_front.jpg)
+    ![alt text](images/cellular_shield_front.jpg)
       
 2. Raspberry Pi and accessories
-     ![alt text](images/rasp_pi.jpg)
+    ![alt text](images/rasp_pi.jpg)
 
 3. TELUS Removable eSIM
 
@@ -99,17 +99,22 @@ After installation, the command to connect is: `sudo ./quectel-CM -s pp.telus.co
 Sixfab cellular sheild can be found here: https://sixfab.com/product/raspberry-pi-cellular-iot-application-hat/
 
 **Layout**
+
 ![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/10/rpi_cellulariot_application_shield_layout-1.png?strip=all&ssl=1)
 
 **Electrical Pinout**
+
 ![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/10/rpi_cellulariot_app_shield_pinout-e1545901898330.png?strip=all&w=1170&ssl=1)
 
 **Pin Descriptions**
+
 ![alt text](images/shield_pin_description.png)
 
 **Electrical Characteristics of Pins**
+
 ![alt text](images/shield_characteristics_pin.png)
 
 **Schematic and BG96 documents**
+
 You can download the schematic of Raspberry Pi Cellular IoT Application Shield from here: https://github.com/sixfab/Sixfab_RPi_CellularIoT_Library/tree/master/documents
 
