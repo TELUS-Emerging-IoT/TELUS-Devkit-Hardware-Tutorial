@@ -85,3 +85,11 @@ PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shi
       ![alt text](images/sudo_pon_success.png)
       
 ### Connect using QMI, alternative to PPP dialer
+
+If you want to use QMI, head back to [Sixfab Tutorial](https://sixfab.com/tutorials/) page and follow the instruction on how to install QMI [here](https://sixfab.com/qmi-interface-with-3g-4g-lte-base-shield-v2/), though its for 3G/4G it seems to be working for Cat-M1.
+
+https://sixfab.com/qmi-interface-with-3g-4g-lte-base-shield-v2/
+
+After installation, the command to connect is: `sudo ./quectel-CM -s pp.telus.com`, below is the output of the command. Notice at the bottom there is a **Too few arguments** messages. I am not sure what is causing this error (have to check with Sixfab) but regardless the modem is connected.
+
+![alt text](images/qmi_connect.png)
