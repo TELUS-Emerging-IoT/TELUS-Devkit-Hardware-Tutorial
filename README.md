@@ -4,6 +4,8 @@ The Secure IoT Accelerator program is intended to enable Canadian Internet of Th
 
 For more information about the accelerator program, visit: https://www.l-spark.com/press-release/l-spark-telus-blackberry-and-solace-launch-accelerator-for-emerging-canadian-iot-ventures/
 
+Youtube: https://www.youtube.com/watch?v=ZL2ADLHl-XQ&feature=youtu.be
+
 This getting started tutorial will help accelerator program participants with setting up the cellular shield, raspberry pi and installing applications required to validate devkit functions and features.
 
 # Let's get started
