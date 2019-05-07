@@ -6,9 +6,11 @@ For more information about the accelerator program, visit: https://www.l-spark.c
 
 Youtube: https://www.youtube.com/watch?v=ZL2ADLHl-XQ&feature=youtu.be
 
-This getting started tutorial will help accelerator program participants with setting up the cellular shield, raspberry pi and installing applications required to validate devkit functions and features.
+IoT technical information session webinar: https://zoom.us/recording/share/PWJ3D-qfgsRB5TrQGfzrThJIY4mG5bUspvZ49OwiZNywIumekTziMw
 
 # Let's get started
+
+This getting started tutorial will help accelerator program participants with setting up the cellular shield, raspberry pi and installing applications required to validate devkit functions and features.
 
 Participants will receive the following hardware when they join the accelerator program:
 
