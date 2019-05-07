@@ -1,4 +1,4 @@
-# TELUS Dekit for Secure IoT Accelerator Program
+# Secure IoT Accelerator Program
 
 The Secure IoT Accelerator program is intended to enable Canadian Internet of Things (IoT) ventures by providing them with global market reach capability with a Secure by Design technology.
 
