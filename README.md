@@ -79,7 +79,29 @@ PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shi
       Command: `sudo nano /etc/chatscripts/chat-connect`
       
       Replace the content of **/etc/chatscripts/chat-connect** with this:
-      ![alt text](images/chat_connect.png)
+      
+      ```
+      
+      # /etc/chatscripts/chat-connect
+      ABORT "BUSY"
+      ABORT "NO CARRIER"
+      ABORT "NO DIALTONE"
+      ABORT "ERROR"
+      ABORT "NO ANSWER"
+      TIMEOUT 30
+      "" AT
+      OK ATE0
+      OK ATI;+QGMR;+CIMI;+QCCID;+CSUB;+CSQ;+COPS?;+CGREG?;&D2
+      OK AT+CGDCONT=1,"IP","\T","0.0.0.0",0,0
+      OK AT+QCFG="band",F,800,80,1
+      OK AT+QCFG="nwscanseq",00,1
+      OK AT+QCFG="nwscanmode",0,1
+      OK AT+QCFG="iotopmode",2,1
+      OK AT+CPSMS=0
+      OK ATD*99#
+      CONNECT
+      
+      ```
 
 5. If you want change the port (**ttyS0** or **ttyUSB3**) that PPP dialer use, you can edit **/etc/ppp/peers/provider**
 
