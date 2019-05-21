@@ -64,16 +64,21 @@ Since we are using Sixfab cellular shield, we are going to head to [Sixfab Tutor
 
 PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shield/
 
-1. In Step 3, select **Cellular IoT Shield**
+1. In Step 3 of the Sixfab tutorial, select **Cellular IoT App Shield** and in step 4, select **Cat-M1** 
 
-      ![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/09/installsh01.png)
+      ![alt text](images/install_sh_step3.png)
+      
+      ![alt text](images/install_sh_step4.png)
 
 2. Set APN to **pp.telus.com**
 
 3. Device communication port can be **ttyS0** or **ttyUSB3**
 
-      ![alt_text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/09/installsh04.png)
+      ![alt_text](images/kernel_and_apn_settings.png)
       
+      ![alt_text](images/serial_port.png)
+      
+       
 4. Edit **/etc/chatscripts/chat-connect**
 
       Command: `sudo nano /etc/chatscripts/chat-connect`
