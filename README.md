@@ -64,6 +64,8 @@ Since we are using Sixfab cellular shield, we are going to head to [Sixfab Tutor
 
 PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shield/
 
+[![Modem Guide](https://img.youtube.com/vi/HkHLNoD_Zog&feature=youtu.be/0.jpg)](https://youtu.be/HkHLNoD_Zog)
+
 1. In Step 3 of the Sixfab tutorial, select **Cellular IoT App Shield** and in step 4, select **Cat-M1** 
 
  ![alt text](images/install_sh_step3.png)
