@@ -63,7 +63,8 @@ Participants will receive the following hardware when they join the accelerator 
 Since we are using Sixfab cellular shield, we are going to head to [Sixfab Tutorial](https://sixfab.com/tutorials/) page and follow the instruction on how to install [PPP dialer](https://sixfab.com/ppp-installer-for-sixfab-shield/) with some modifications and configurations specific to TELUS Cat-M1 network.
 
 PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shield/
-You may refer to the following video to assist with establishing a connection:
+
+You may refer to the following video or work through the steps below:
 [![Modem Guide](images/play.png)](https://youtu.be/HkHLNoD_Zog)
 
 1. In Step 3 of the Sixfab tutorial, select **Cellular IoT App Shield** and in step 4, select **Cat-M1** 
