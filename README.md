@@ -150,24 +150,24 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 | Pin Number    | BCM Pin       | Pin Name  | Description|
 | ------------- |:-------------:| :-----:|-------------|
 | 2 | 5V | 5V PWR |This pin is connected to the 5V power net|
-| 3 | GPIO 2 |   SDA |I2C Serial Data|
+| 3 | GPIO 2 | SDA |I2C Serial Data|
 | 4 | 5V | 5V PWR |This pin is connected to the 5V power net|
 | 5 | GPIO 3 |  SCL | I2C Serial Data |
 | 7 | GPIO 4 |  1-WIRE | Data line for 1-Wire sensors.|
 | 8 | UART RX |  BG96 TX | This pin functions as the serial data input to the module for UART communication.|
 | 10 | UART TX |  BG96 RX | This pin functions as the serial data output to the module for UART communication. |
-| 11 | GPIO 17 |  RELAY | Relay control pin. This relay is active high.|
-| 12 | GPIO 18 |  IN-2 | When the voltage in the range 3.3-1.2V is applied from the IN-2 input, this pin goes to a LOW state. Default state is HIGH. |
+| 12 | GPIO 18 | BG96 POWER ENABLE | BG96 3.8V Power regulator control. Normally pulled-up, when this pin is driven LOW, BG96's power will cut off.|
 | 13 | GPIO 27 |  USER LED | Active HIGH, to switch on the USER LED, pin state must be HIGH. |
-| 18 | GPIO 24 |  USER BUTTON | This pin is pulled-up by default. when the button is pressed, the pin is switched to LOW. |
-| 19 | GPIO 10 |  IN-1 |When the voltage in the range 3.3-1.2V is applied from the IN-1 input, this pin goes to a LOW state. Default state is HIGH.  |
-| 23 | GPIO 11 |  BG96 PWRKEY | The module can be turned on by driving the pin BG96 PWRKEY to a HIGH-level voltage for more than 500 ms then pulling it down. You can apply the same process to power down the module if already powered up.|
-
-| 31 | GPIO 6 |  BG96 APREADY | AP_READY will detect the sleep state of the host (can be configured to HIGH level or LOW level detection). Please refer to AT+QCFG="apready" command for details.|
-| 33| GPIO 13 | BG96 RI | When BG96 had URC to report, RI signal will wake up host. Please refer to Chapter 3.14 of the BG96 Datasheet for details about RI behaviour. |
-| 37| GPIO 26 |  BG96 POWER ENABLE | BG96 3.8V Power regulator control. Normally pulled-up, when this pin is driven LOW, BG96's power will cut off.|
-| 38 | GPIO 20 |  BG96 STATUS | The STATUS pin is used to indicatr the operation status of the BG96 module. It will output High level when the module is powered on. |
-| 6,9,14,25,30,34,39 | GND |  GND | These pins are connected to ground |
+| 15 | GPIO 22 |  BG96 STATUS | The STATUS pin is used to indicatr the operation status of the BG96 module. It will output High level when the module is powered on. |
+| 16| GPIO 23 | BG96 RI | When BG96 had URC to report, RI signal will wake up host. Please refer to Chapter 3.14 of the BG96 Datasheet for details about RI behaviour. |
+| 18 | GPIO 24 |  BG96 APREADY | AP_READY will detect the sleep state of the host (can be configured to HIGH level or LOW level detection). Please refer to AT+QCFG="apready" command for details.|
+| 22 | GPIO 25 |USER BUTTON | This pin is pulled-up by default. when the button is pressed, the pin is switched to LOW. |
+| 29 | GPIO 5 |  BG96 PWRKEY | The module can be turned on by driving the pin BG96 PWRKEY to a HIGH-level voltage for more than 500 ms then pulling it down. You can apply the same process to power down the module if already powered up.|
+| 31 | GPIO 6 |  RELAY | Relay control pin. This relay is active high.|
+| 32 | GPIO 12 | USER LED | User LED (blue)|
+| 33 | GPIO 13 | OPTO #2 | When the voltage in the range 3.3-1.2V is applied from the IN-2 input, this pin goes to a LOW state. Default state is HIGH.|
+| 35 | GPIO 19 | OPTO #1 | When the voltage in the range 3.3-1.2V is applied from the IN-1 input, this pin goes to a LOW state. Default state is HIGH.|
+| 6,9,14,20,25,30,34,39 | GND |  GND | These pins are connected to ground |
 
 
 **Electrical Characteristics of Pins**
