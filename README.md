@@ -18,7 +18,7 @@ Participants will receive the following hardware when they join the accelerator 
 2. Raspberry Pi and accessories
 3. TELUS Removable eSIM
 
-This version of the shield also has an embedded SIM which can be used as the default but sliding the **SIM <> eSIM** switch to **eSIM**
+This version of the shield also has an embedded SIM which can be used as the default by sliding the **SIM <> eSIM** switch to **eSIM**
 
 ![alt text](images/KNOLL.jpg)
 ![alt text](images/RASPBERRY.jpg)
