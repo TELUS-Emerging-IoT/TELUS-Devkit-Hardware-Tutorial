@@ -143,7 +143,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 **Electrical Pinout**
 
-![alt text](images/Telus Pinout v0.1.0.jpg)
+![alt text](images/TelusPinout.jpg)
 
 **Pin Descriptions**
 
