@@ -152,7 +152,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 | 2 | 5V | 5V PWR |This pin is connected to the 5V power net|
 | 3 | GPIO 2 | SDA |I2C Serial Data|
 | 4 | 5V | 5V PWR |This pin is connected to the 5V power net|
-| 5 | GPIO 3 |  SCL | I2C Serial Data |
+| 5 | GPIO 3 |  SCL | I2C Serial Clock|
 | 7 | GPIO 4 |  1-WIRE | Data line for 1-Wire sensors.|
 | 8 | UART RX |  BG96 TX | This pin functions as the serial data input to the module for UART communication.|
 | 10 | UART TX |  BG96 RX | This pin functions as the serial data output to the module for UART communication. |
@@ -172,8 +172,26 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 **Electrical Characteristics of Pins**
 
-*Will be added shortly*
 
+| Pin Number    | BCM Pin       | Pin Name  | Description|Min|Typical|Max|Unit|
+| ------------- |:-------------:| :-----:|-------------|-----|-------|---|----|
+| 2 | 5V | 5V PWR |Power Supply|4.8|5|5.25|V|
+| 3 | GPIO 2 | SDA |I2C Data|3|3.3|3.6|V|
+| 4 | 5V | 5V PWR |Power Supply|3|3.3|3.6|V|
+| 5 | GPIO 3 |  SCL | I2C Clock |3|3.3|3.6|V|
+| 7 | GPIO 4 |  1-WIRE |1-Wire Data|3|3.3|3.6|V|
+| 8 | UART RX |  BG96 TX | UART|3|3.3|3.6|V|
+| 10 | UART TX |  BG96 RX | UART|3|3.3|3.6|V|
+| 12 | GPIO 18 | BG96 POWER ENABLE | Output|3|3.3|3.6|V|
+| 13 | GPIO 27 |  USER LED | Output|3|3.3|3.6|V|
+| 15 | GPIO 22 |  BG96 STATUS |Input |3|3.3|3.6|V|
+| 16| GPIO 23 | BG96 RI | Input |3|3.3|3.6|V|
+| 18 | GPIO 24 |  BG96 APREADY | Input|3|3.3|3.6|V|
+| 22 | GPIO 25 |USER BUTTON | Input|3|3.3|3.6|V|
+| 29 | GPIO 5 |  BG96 PWRKEY | Output|3|3.3|3.6|V|
+| 31 | GPIO 6 |  RELAY | Output | User LED (blue)|3|3.3|3.6|V|
+| 33 | GPIO 13 | OPTO #2 | Input|3|3.3|3.6|V|
+| 35 | GPIO 19 | OPTO #1 | Input|3|3.3|3.6|V|
 
 **Schematic and BG96 documents**
 
