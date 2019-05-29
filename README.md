@@ -189,7 +189,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 | 18 | GPIO 24 |  BG96 APREADY | Input|3|3.3|3.6|V|
 | 22 | GPIO 25 |USER BUTTON | Input|3|3.3|3.6|V|
 | 29 | GPIO 5 |  BG96 PWRKEY | Output|3|3.3|3.6|V|
-| 31 | GPIO 6 |  RELAY | Output | User LED (blue)|3|3.3|3.6|V|
+| 31 | GPIO 6 |  RELAY | Output |3|3.3|3.6|V|
 | 33 | GPIO 13 | OPTO #2 | Input|3|3.3|3.6|V|
 | 35 | GPIO 19 | OPTO #1 | Input|3|3.3|3.6|V|
 
