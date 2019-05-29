@@ -18,8 +18,10 @@ Participants will receive the following hardware when they join the accelerator 
 2. Raspberry Pi and accessories
 3. TELUS Removable eSIM
 
-![alt text](images/cellular_shield_front.jpg)
-![alt text](images/rasp_pi.jpg)
+This version of the shield also has an embedded SIM which can be used as the default but sliding the **SIM <> eSIM** switch to **eSIM**
+
+![alt text](images/KNOLL.jpg)
+![alt text](images/RASPBERRY.jpg)
 
 ## Setting up the Hardware
 
@@ -27,26 +29,29 @@ Participants will receive the following hardware when they join the accelerator 
 
       Additionally, you can also connect GPS antenna if you intended to develop application that would use GPS location.
 
-      ![alt text](images/insert_esim_and_connect_antenna.jpg)
+      ![alt text](images/COMPONENTSASSEMBLE!.jpg)
 
 2. Connect the cellular shield and raspberry pi.
 
-      ![alt text](images/shield_and_pi_stacked_1.jpg)
+      ![alt text](images/SIDEBYSIDE.jpg)
+      ![alt text](images/ATTACH.jpg)
 
 3. Connect the USB cable as shown below.
 
-      ![alt text](images/usb_cable_connected_2.jpg)
-      ![alt text](images/usb_cable_connected_1.jpg)      
+      ![alt text](images/CABLE.jpg)
+      ![alt text](images/CABLE2.jpg)      
 
 4. Connect the micro USB cable as power source (included in the package) and ethernet cable for internet connection, optionally, you can also use Wifi for internet connection.
 
    `This tutorial assumes that Raspian OS has been installed and configured ahead of time, if not, the participant shall install and configure Raspian OS before continuing to the next steps.`
    
-5. Power on Raspberry Pi. 
+5. Power on Raspberry Pi, the shield will also automatically power on as well with a blue indicator light flashing. 
+   
+   ![alt text](images/BLUE.jpg) 
       
-6. Press **Power button** on the cellular shield shown below in red circle to enable cellular connection and mount USB ports in Raspberry Pi.
+6. Toggle the **SIM <> eSIM** switch on the cellular shield shown below to chose which sim to read from. **SIM** reads the removeable SIM while **eSIM** reads the embedded SIM. 
 
-   ![alt text](images/press_power_on_button.jpg) 
+   ![alt text](images/SIMMUX.jpg) 
    
 7. If you are on Raspian OS desktop, open Terminal to verify USB ports are mounted.
 
