@@ -143,15 +143,20 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 **Electrical Pinout**
 
-![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/10/rpi_cellulariot_app_shield_pinout-e1545901898330.png?strip=all&w=1170&ssl=1)
+![alt text](images/Telus Pinout v0.1.0.jpg)
 
 **Pin Descriptions**
 
-![alt text](images/shield_pin_description.png)
+| Pin Number    | BCM Pin       | Pin Name  | Description|
+| ------------- |:-------------:| :-----:|-------------|
+| 2      | 5V | 5V PWR |This pin is connected to the 5V power net|
+| 3      | GPIO2     |   SDA |I2C Serial Data|
+| 4 | 5V |  5V PWR | This pin is connected to the 5V power net|
 
 **Electrical Characteristics of Pins**
 
-![alt text](images/shield_characteristics_pin.png)
+*Will be added shortly*
+
 
 **Schematic and BG96 documents**
 
