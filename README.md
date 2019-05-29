@@ -148,7 +148,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 **Pin Descriptions**
 
 | Pin Number    | BCM Pin       | Pin Name  | Description|
-| ------------- |:-------------:| :-----:|-------------|
+| ------------- |:-------------| :-----|-------------|
 | 2 | 5V | 5V PWR |This pin is connected to the 5V power net|
 | 3 | GPIO 2 | SDA |I2C Serial Data|
 | 4 | 5V | 5V PWR |This pin is connected to the 5V power net|
@@ -174,7 +174,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 
 | Pin Number    | BCM Pin       | Pin Name  | Description|Min|Typical|Max|Unit|
-| ------------- |:-------------:| :-----:|-------------|-----|-------|---|----|
+| ------------- |:-------------| :-----|-------------|-----|-------|---|----|
 | 2 | 5V | 5V PWR |Power Supply|4.8|5|5.25|V|
 | 3 | GPIO 2 | SDA |I2C Data|3|3.3|3.6|V|
 | 4 | 5V | 5V PWR |Power Supply|3|3.3|3.6|V|
