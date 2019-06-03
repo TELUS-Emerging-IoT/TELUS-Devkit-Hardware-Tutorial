@@ -67,21 +67,23 @@ This version of the shield also has an embedded SIM which can be used as the def
 
 Since we are using a customized cellular IoT shield, we will need to install the appropriate dialer. The package required for installation can be found on Watchdox, called [telus_azure_example.zip](https://blackberry.watchdox.com/ngdox/download/7c8ee964-e4d7-4155-bf23-38543cfb3446) 
 
-### Installing the PPP dialer:
+### Downloading the PPP dialer:
 
 1. After you have aqcuired the telus_azure_example.zip, you will need to extract it to a local directory.
 
 2. Enter the telus_azure_example/Sixfab_PPP_Installer/ppp_installer/ folder 
-'''
+```
 cd telus_azure_example/Sixfab_PPP_Installer_telus/ppp_installer/
-'''
+```
 and execute the install.sh file as root.
 
-'''
+```
 sudo chmod +x install.sh
 sudo ./install.sh
-'''
+```
 3. This will begin a series of installation prompts
+
+### Installing the PPP dialer:
 
 You may refer to the following video or work through the steps below:
 [![Modem Guide](images/play.png)](https://youtu.be/HkHLNoD_Zog)
