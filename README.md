@@ -65,18 +65,30 @@ This version of the shield also has an embedded SIM which can be used as the def
 
 ## Connecting the Modem
 
-Since we are using Sixfab cellular shield, we are going to head to [Sixfab Tutorial](https://sixfab.com/tutorials/) page and follow the instruction on how to install [PPP dialer](https://sixfab.com/ppp-installer-for-sixfab-shield/) with some modifications and configurations specific to TELUS Cat-M1 network.
+Since we are using a customized cellular IoT shield, we will need to install the appropriate dialer. The package required for installation can be found on Watchdox, called [telus_azure_example.zip](https://blackberry.watchdox.com/ngdox/download/7c8ee964-e4d7-4155-bf23-38543cfb3446) 
 
-PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shield/
+### Installing the PPP dialer:
+
+1. After you have aqcuired the telus_azure_example.zip, you will need to extract it to a local directory.
+
+2. Enter the telus_azure_example/Sixfab_PPP_Installer/ppp_installer/ folder 
+'''
+cd telus_azure_example/Sixfab_PPP_Installer_telus/ppp_installer/
+'''
+and execute the install.sh file as root.
+
+'''
+sudo chmod +x install.sh
+sudo ./install.sh
+'''
+3. This will begin a series of installation prompts
 
 You may refer to the following video or work through the steps below:
 [![Modem Guide](images/play.png)](https://youtu.be/HkHLNoD_Zog)
 
-1. In Step 3 of the Sixfab tutorial, select **Cellular IoT App Shield** and in step 4, select **Cat-M1** 
+1. For the first prompt select **Cellular IoT App Shield Telus Edition** then select **Cat-M1** as the LTE technology. 
 
- ![alt text](images/install_sh_step3.png)
-      
- ![alt text](images/install_sh_step4.png)
+ ![alt text](images/SEL.png)
 
 2. Set APN to **pp.telus.com**
 
