@@ -153,7 +153,7 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 **Layout**
 
-![alt text](https://sixfab-com.exactdn.com/wp-content/uploads/2018/10/rpi_cellulariot_application_shield_layout-1.png?strip=all&ssl=1)
+![alt text](images/Pinout.png)
 
 **Electrical Pinout**
 
