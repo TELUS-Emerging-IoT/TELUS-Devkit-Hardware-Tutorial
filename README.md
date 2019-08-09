@@ -137,6 +137,16 @@ You may refer to the following video or work through the steps below:
 
       ![alt text](images/sudo_pon_success.png)
       
+7. Once you have an ip address you must set the default connector to be the ppp0 adapter, enter the following into the console
+```
+ip route add default via 10.64.64.64
+```
+This will make the ppp0 modem the default network device
+
+8. You can test the connection speed by pinging google servers or opening a browser
+```
+ping google.com
+```
 ### (Optional) Connect using QMI, alternative to PPP dialer
 
 If you want to use QMI, head back to [Sixfab Tutorial](https://sixfab.com/tutorials/) page and follow the instruction on how to install QMI [here](https://sixfab.com/qmi-interface-with-3g-4g-lte-base-shield-v2/), though its for 3G/4G it seems to be working for Cat-M1.
