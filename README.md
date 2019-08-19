@@ -61,13 +61,20 @@ This version of the shield also has an embedded SIM which can be used as the def
    
    You will also notice that `/dev/ttyS0` (serial) is available. If you don't see `/dev/ttyS0` when you `ls -l /dev/tty*` then you need to enable Serial via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
 
-8. Alternatively, you can also onnect (login) to Raspberry Pi using SSH via Terminal (mac), Tera Term or Putty (windows). If SSH is not available, you can enable SSH via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
+8. Alternatively, you can also connect (login) to Raspberry Pi using SSH via Terminal (mac), Tera Term or Putty (windows). If SSH is not available, you can enable SSH via [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
 
 ## Connecting the Modem
 
-Since we are using a customized cellular IoT shield, we will need to install the appropriate dialer. The package required for installation can be found on Watchdox, called [telus_azure_example.zip](https://blackberry.watchdox.com/ngdox/download/7c8ee964-e4d7-4155-bf23-38543cfb3446) 
+Since we are using a customized cellular IoT shield, we will need to install the appropriate dialer. If this is for the L-Spark Accelerator you can get the script from Watchdox 
+[telus_azure_example.zip](https://blackberry.watchdox.com/ngdox/download/7c8ee964-e4d7-4155-bf23-38543cfb3446) 
+
+For other cases you can get the installation script by issuing the following command
+```
+wget https://raw.githubusercontent.com/sixfab/Sixfab_PPP_Installer/master/ppp_installer/install.sh
+```
 
 ### Downloading the PPP dialer:
+If you are not part of the L-Spark Accelerator ignore step 1.
 
 1. After you have aqcuired the telus_azure_example.zip, you will need to extract it to a local directory.
 
@@ -139,7 +146,7 @@ You may refer to the following video or work through the steps below:
       
 7. Once you have an ip address you must set the default connector to be the ppp0 adapter, enter the following into the console
 ```
-ip route add default via 10.64.64.64
+sudo ip route add default via 10.64.64.64
 ```
 This will make the ppp0 modem the default network device
 
