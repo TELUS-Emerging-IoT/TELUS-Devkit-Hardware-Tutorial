@@ -121,16 +121,21 @@ You may refer to the following video or work through the steps below:
       ABORT "NO DIALTONE"
       ABORT "ERROR"
       ABORT "NO ANSWER"
-      TIMEOUT 30
+      TIMEOUT 180
       "" AT
       OK ATE0
-      OK ATI;+QGMR;+CIMI;+QCCID;+CSUB;+CSQ;+COPS?;+CGREG?;&D2
-      OK AT+CGDCONT=1,"IP","\T","0.0.0.0",0,0
-      OK AT+QCFG="band",F,800,80,1
+      OK AT+QCFG="band",F,80A,80,1
       OK AT+QCFG="nwscanseq",00,1
       OK AT+QCFG="nwscanmode",0,1
-      OK AT+QCFG="iotopmode",2,1
+      OK AT+QCFG="iotopmode",0,1
+      
+      OK AT+COPS=?
+      
       OK AT+CPSMS=0
+      OK ATI;+QGMR;+CIMI;+QCCID;+CSUB;+CSQ;+COPS?;+CGREG?;&D2
+      OK AT+CGDCONT=?
+      OK AT+CGDCONT?
+      OK AT+CGDCONT=1,"IP","\T","0.0.0.0",0,0
       OK ATD*99#
       CONNECT
       
@@ -142,7 +147,8 @@ You may refer to the following video or work through the steps below:
 
 6. To connect, the command to use is `sudo pon` and you will see similar to below once modem successfully connected to TELUS Cat-M1 network.
 
-      ![alt text](images/sudo_pon_success.png)
+      ![alt text](images/peers_providers-2.png)
+      ![alt text](images/peers_providers-1.png)
       
 7. Once you have an ip address you must set the default connector to be the ppp0 adapter, enter the following into the console
 ```
