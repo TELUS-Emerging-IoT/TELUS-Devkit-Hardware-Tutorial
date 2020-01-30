@@ -67,23 +67,54 @@ PPP installer for Sixfab Shield: https://sixfab.com/ppp-installer-for-sixfab-shi
 You may refer to the following video or work through the steps below:
 [![Modem Guide](images/play.png)](https://youtu.be/HkHLNoD_Zog)
 
-1. In Step 3 of the Sixfab tutorial, select **Cellular IoT App Shield** and in step 4, select **Cat-M1** 
+1. Get install.sh file using the terminal.
 
- ![alt text](images/install_sh_step3.png)
+      Command: `wget https://raw.githubusercontent.com/sixfab/Sixfab_PPP_Installer/master/ppp_installer/install.sh`
       
- ![alt text](images/install_sh_step4.png)
+2. Change the properties of the script so that it is executable.
 
-2. Set APN to **pp.telus.com**
-
-3. Device communication port can be **ttyS0** or **ttyUSB3**
-
- ![alt_text](images/kernel_and_apn_settings.png)
+      Command: `chmod +x install.sh`
       
- ![alt_text](images/serial_port.png)      
+3. Install the script: install.sh.
+
+      Command: `sudo ./install.sh`
+
+4. After the command is ran, a series of questions are needed to be answered.
+
+      Select **Cellular IoT App Shield** for Sixfab shield/HAT
+
+      ![alt text](images/install_sh_step3.png)
+      
+      Select **Cat-M1**
+
+      ![alt text](images/install_sh_step4.png)
+ 
+      Type **y** to answer "Do you have updated kernel"
+ 
+      ![alt text](images/select3.png)
+
+5. Set APN to **pp.telus.com**. 
+      No username and password are needed so please answer **n**. 
+      Device communication port can be **ttyS0** or **ttyUSB3**.
+
+      ![alt text](images/select4-5-6.png)
+      
+6. Please answer **n** for the next question.
+
+      ![alt text](images/select7.png)
+      
+      
+7. Press **ENTER** key and wait for a couple of minutes for the Raspberry Pi to reboot.
+
+      ![alt text](images/enter.png)
        
-4. Edit **/etc/chatscripts/chat-connect**
+8. After the Pi reboot, open the terminal again and edit **/etc/chatscripts/chat-connect**.
 
       Command: `sudo nano /etc/chatscripts/chat-connect`
+      
+      ![alt text](images/edit1.png)
+      
+      ![alt text](images/edit2.png)
       
       Replace the content of **/etc/chatscripts/chat-connect** with this:
       
@@ -110,13 +141,27 @@ You may refer to the following video or work through the steps below:
       
       ```
 
-5. If you want change the port (**ttyS0** or **ttyUSB3**) that PPP dialer use, you can edit **/etc/ppp/peers/provider**
+9. If you want to change the port (**ttyS0** or **ttyUSB3**) that PPP dialer use, you can edit **/etc/ppp/peers/provider**.
 
       ![alt text](images/peers_providers.png)
 
-6. To connect, the command to use is `sudo pon` and you will see similar to below once modem successfully connected to TELUS Cat-M1 network.
+10. To connect, the command to use is `sudo pon` and you will see similar to below once modem successfully connected to TELUS Cat-M1 network.
 
       ![alt text](images/sudo_pon_success.png)
+      
+11. There might be some issues with routing. To view the routing table:
+
+      Command: `route -n`
+      
+      ![alt text](images/route.png)
+      
+      In the table, it is noticeable that the WIFT is the main destination used. To use the modem instead, type the command `sudo ip route add default via 10.64.64.64`. Note that the IP of the modem (10.64.64.64) may be different in your computer.
+      
+      ![alt text](images/add_default.png)
+      
+12. To confirm that the modem is used, attempt `ping google.com`. You can see that the latency is longer than typical WIFI (business WIFI is usually around 10ms).
+      
+      ![alt text](images/verify.png)
       
 ### (Optional) Connect using QMI, alternative to PPP dialer
 
