@@ -79,17 +79,17 @@ You may refer to the following video or work through the steps below:
 
       Command: `sudo ./install.sh`
 
-4. After the command is ran, a series of questions are needed to be answered.
+4. After the command has run, a series of questions will needed to be answered.
 
-      Select **Cellular IoT App Shield** for Sixfab shield/HAT
+      a. Select **Cellular IoT App Shield** for Sixfab shield/HAT
 
       ![alt text](images/install_sh_step3.png)
       
-      Select **Cat-M1**
+      b. Select **Cat-M1**
 
       ![alt text](images/install_sh_step4.png)
  
-      Type **y** to answer "Do you have updated kernel"
+      c. Type **y** to answer "Do you have updated kernel"
  
       ![alt text](images/select3.png)
 
@@ -197,4 +197,4 @@ Sixfab cellular shield information can be found here: https://sixfab.com/product
 
 You can download the schematic of Raspberry Pi Cellular IoT Application Shield from here: https://github.com/sixfab/Sixfab_RPi_CellularIoT_Library/tree/master/documents
 
-### Hope this helps.
+### We hope this helps you get started with the Raspberry Pi Starter Kit.
