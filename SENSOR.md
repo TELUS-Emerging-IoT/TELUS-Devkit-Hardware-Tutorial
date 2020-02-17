@@ -22,9 +22,11 @@ Enable I2C and Serial interface as follows:
 
     ![alt_text](/images/raspi-config4.PNG)
     
-    ![alt_text](/images/rapsi-config5.PNG)
+    ![alt_text](/images/raspi-config5.PNG)
 
 4. After "OK" is selected, the termial will take you back to raspi-config window. Select `5 Interfacing Option`again, then select `P5 I2C` in the next window.
+
+    ![alt_text](/images/raspi-config2.PNG)
 
     ![alt_text](/images/raspi-config6.PNG)
 
