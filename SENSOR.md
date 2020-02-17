@@ -10,7 +10,7 @@ Enable I2C and Serial interface as follows:
 
 1. In the command-line, type `sudo raspi-config`. It should display the window below:
 
-    ![alt_text](/images/raapi-config1.PNG)
+    ![alt_text](/images/raspi-config1.PNG)
 
 2. Select `5 Interfacing Option`, then select `P6 Serial` in the next window.
 
