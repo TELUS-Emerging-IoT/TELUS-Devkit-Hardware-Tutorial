@@ -68,7 +68,7 @@ This version of the shield also has an embedded SIM which can be used as the def
 Get the PPP dailer script by issuing the following command:
 
 ```
-wget https://github.com/TELUS-Emerging-IoT/TELUS-Devkit-Hardware-Tutorial/blob/Updated-TELUS-Cat-M1-Shield/Sixfab_PPP_Installer_TELUS.zip
+wget https://github.com/TELUS-Emerging-IoT/TELUS-Devkit-Hardware-Tutorial/raw/Updated-TELUS-Cat-M1-Shield/Sixfab_PPP_Installer_TELUS.zip
 ```
 
 ### Downloading the PPP dialer:
