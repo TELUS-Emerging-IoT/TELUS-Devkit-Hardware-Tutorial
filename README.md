@@ -65,30 +65,27 @@ This version of the shield also has an embedded SIM which can be used as the def
 
 ## Connecting the Modem
 
-Since we are using a customized cellular IoT shield, we will need to install the appropriate dialer. If this is for the L-Spark Accelerator you can get the script from Watchdox 
-[telus_azure_example.zip](https://blackberry.watchdox.com/ngdox/download/7c8ee964-e4d7-4155-bf23-38543cfb3446) 
+Get the PPP dailer script by issuing the following command:
 
-For other cases you can get the installation script by issuing the following command
 ```
-wget https://raw.githubusercontent.com/sixfab/Sixfab_PPP_Installer/master/ppp_installer/install.sh
+wget https://github.com/TELUS-Emerging-IoT/TELUS-Devkit-Hardware-Tutorial/blob/Updated-TELUS-Cat-M1-Shield/Sixfab_PPP_Installer_TELUS.zip
 ```
 
 ### Downloading the PPP dialer:
-If you are not part of the L-Spark Accelerator ignore step 1 and 2a, skip to 2b.
+1. After downloading Sixfab_PPP_Installer_TELUS.zip, extract it to a local directory.
 
-1. After you have aqcuired the telus_azure_example.zip, you will need to extract it to a local directory.
-
-2a. Enter the telus_azure_example/Sixfab_PPP_Installer/ppp_installer/ folder 
+2. Enter Sixfab_PPP_Installer_TELUS.zip/ppp_installer/ folder 
 ```
-cd telus_azure_example/Sixfab_PPP_Installer_telus/ppp_installer/
+cd Sixfab_PPP_Installer_TELUS.zip/ppp_installer/
 ```
-2b. Execute the install.sh file as root.
 
+2. Execute install.sh file as root.
 ```
 sudo chmod +x install.sh
 sudo ./install.sh
 ```
-3. This will begin a series of installation prompts
+
+4. This will begin a series of installation prompts
 
 ### Installing the PPP dialer:
 
