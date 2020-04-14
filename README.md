@@ -125,13 +125,9 @@ You may refer to the following video or work through the steps below:
       OK AT+QCFG="nwscanseq",00,1
       OK AT+QCFG="nwscanmode",0,1
       OK AT+QCFG="iotopmode",0,1
-      
-      OK AT+COPS=?
-      
+             
       OK AT+CPSMS=0
       OK ATI;+QGMR;+CIMI;+QCCID;+CSUB;+CSQ;+COPS?;+CGREG?;&D2
-      OK AT+CGDCONT=?
-      OK AT+CGDCONT?
       OK AT+CGDCONT=1,"IP","\T","0.0.0.0",0,0
       OK ATD*99#
       CONNECT
